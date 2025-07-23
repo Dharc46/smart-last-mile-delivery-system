@@ -1,1 +1,1 @@
-run src/main/java/com/example/smartlastmiledeliverysystem/SmartLastMileDeliverySystemApplication.java
+
