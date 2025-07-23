@@ -6,8 +6,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class SmartLastMileDeliverySystemApplication {
 
-	public static void main(String[] args) {
-		SpringApplication.run(SmartLastMileDeliverySystemApplication.class, args);
-	}
-
+    public static void main(String[] args) {
+        SpringApplication.run(SmartLastMileDeliverySystemApplication.class, args);
+    }
 }
