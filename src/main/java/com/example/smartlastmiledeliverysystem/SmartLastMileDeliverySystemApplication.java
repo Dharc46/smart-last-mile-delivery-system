@@ -1,4 +1,4 @@
-package com.example.smart_last_mile_delivery_system;
+package com.example.smartlastmiledeliverysystem;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
