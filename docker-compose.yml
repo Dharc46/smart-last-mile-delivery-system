@@ -4,7 +4,7 @@ services:
   app:
     image: smart-last-mile-delivery-system
     ports:
-      - "8080:8080" # Thay bằng "8081:8080" nếu cổng 8080 bị chiếm
+      - "8080:8080" 
     environment:
       - SPRING_DATASOURCE_URL=jdbc:postgresql://db:5432/slmds_db
       - SPRING_DATASOURCE_USERNAME=postgres
@@ -22,7 +22,7 @@ services:
       - POSTGRES_USER=postgres
       - POSTGRES_PASSWORD=2206
     ports:
-      - "5432:5432" # Ánh xạ cổng để debug (có thể bỏ nếu không cần)
+      - "5432:5432" # Ánh xạ cổng để debug 
     volumes:
       - db-data:/var/lib/postgresql/data
     networks:
